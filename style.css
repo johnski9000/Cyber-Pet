@@ -1,0 +1,62 @@
+html{
+    background-color: #c9fdfd;
+}
+#headbox{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px black solid;
+}
+
+#heading{
+    align-self: center;
+    font-family: Roboto Slab;
+}
+
+#bigbox {
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+
+#petimgbox {
+    width: 20vw;
+}
+#statsbox {
+    width: 80vw;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+#petimgg,
+#petimg{
+    width: 400px;
+    height: auto;
+}
+
+input {
+    border: 1px black ridge;
+    height: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus {
+    outline: none;
+}
+#commandbox {
+    width: 100vw;
+    text-align: center;
+
+}
+button {
+    margin-left: 15px;
+    font-size: 200%;
+}
+#mood{
+margin-left: 33px;
+}
+#thirst{
+    margin-left: 20px;
+}
+#health {
+    margin-left: 13px;
+}
