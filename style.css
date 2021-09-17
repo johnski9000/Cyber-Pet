@@ -18,6 +18,7 @@ html{
     width: 100vw;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #petimgbox {
@@ -59,4 +60,17 @@ margin-left: 33px;
 }
 #health {
     margin-left: 13px;
+}
+#namebox {
+    display: flex;
+    flex-flow: row;
+    margin-left: 10vw;
+    height: 10vh;
+    width: auto;
+    align-items: center;
+}
+
+#namebox p {
+    margin-left: 10px;
+    font-size: 200%;
 }
