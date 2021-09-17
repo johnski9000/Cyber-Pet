@@ -40,7 +40,7 @@ play.addEventListener("click", () =>{
         alert("GameOver, you let your pet die :(");
         window.location.reload();
     }
-}, 20 );
+}, 200 );
 })
 
 feed.addEventListener("click", () => {
