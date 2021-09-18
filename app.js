@@ -12,19 +12,6 @@ const water = document.getElementById("water");
 const petimg1 = document.getElementById("petimg")
 const petimg2 = document.getElementById("petimgg")
 
-// if (petHealth.value == 0) {
-//     alert("GameOver, you let your pet die :(")
-//     window.location.reload();
-// }
-
-// if (petMood.value <= 50){
-//     petimg1.remove();
-//     petimg2.style.display = "visible"
-    
-// } else {
-//     petimg2.remove();
-    
-// }
 
 play.addEventListener("click", () =>{
     play.style.visibility = "hidden";
