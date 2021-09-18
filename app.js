@@ -52,10 +52,6 @@ water.addEventListener("click", () => {
 pet.addEventListener("click", () => {
     petMood.value += 6;
 })
-// nameButton.addEventListener("click", () => {
-//     petName.textContent = `Name: ${input.value}`;
-//     input.value = "";
-// })
 
 nameButton.addEventListener("click", () => {
     petName.textContent = input.value;
